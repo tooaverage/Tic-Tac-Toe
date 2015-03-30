@@ -1,0 +1,68 @@
+/* line 4, sass/style.sass */
+h1 {
+  display: hidden;
+  font-family: Permanent Marker;
+  padding: 10px;
+  font-size: 5em;
+  font-family: Permanent Marker;
+  font-size: 7em;
+  color: white;
+  margin: 0px;
+}
+
+/* line 15, sass/style.sass */
+.box {
+  height: 200px;
+  width: 200px;
+  border: solid 4px white;
+  float: left;
+}
+
+/* line 21, sass/style.sass */
+.box1, .box2, .box3 {
+  border-top: none;
+}
+
+/* line 24, sass/style.sass */
+.box1, .box4, .box7 {
+  border-left: none;
+}
+
+/* line 27, sass/style.sass */
+.box7, .box8, .box9 {
+  border-bottom: none;
+}
+
+/* line 30, sass/style.sass */
+.box3, .box6, .box9 {
+  border-right: none;
+}
+
+/* line 33, sass/style.sass */
+.board {
+  width: 618px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 38, sass/style.sass */
+body {
+  text-align: center;
+  margin: 0 auto;
+  background: url("img/background1.png");
+  font-family: Permanent Marker;
+}
+
+/* line 44, sass/style.sass */
+p {
+  font-size: 6em;
+  padding: 0;
+  margin: 0;
+  color: #dddddd;
+}
+
+/* line 50, sass/style.sass */
+row {
+  text-align: center;
+  margin: 0 auto;
+}
